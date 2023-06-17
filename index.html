@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Sherlyn Triana">
+    <meta name="description" content="Portafolio de desarrollo web de Sherlyn Triana">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Sherlyn Triana | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/WhatsApp Image 2023-06-10 at 9.40.40 AM.jpeg" 
+        alt="Foto de Sherlyn Triana">
+        <h1>Hola, soy Sherlyn Triana</h1>
+        <!--<h2>Desarrollo sitios web.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="Sherlyn Triana" src="imagenes/Sin título.jpg" alt="Sherlyn Triana.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Sherlyn Triana</h2>
+        <p class="seccion-texto">Soy estudiante de contador publico, tengo 18 años, tengo un hobbi que es bailar asi como
+          tambien me gusta jugar futbol, me gusta el color rosa, en un futuro pienso que al terminar mi carrera de contador público realizar una segunda carrera que es Auxiliar de vuelo,en aspecto de musica soy fan de Morat, Alfredo Olivas,
+          Feid, Ferxxo, Rels B, Nanpa Basico, asi como saber y dar a conocer informacion mas relevante de los cantantes más famosos, me gusta bailar en especial salsa y cumbia pero me especializo en ballet polinesio..</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p> Temas sobre html, css, dentro del grupo de Tecnolochicas</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-secondary">HTML</span>
+              <span class="badge text-bg-secondary">CSS</span>
+              <span class="badge text-bg-secondary">JavaScript</span>
+              <span class="badge text-bg-secondary">React</span>
+            </div>
+          </div>
+          <!-- Cantante favorito -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Cantante favorito</p>
+            <p>Uno de mis cantantes favoritos es Alfredo Olivas, Rels B, Morat,Humbe ya que me gusta el tipo de musica que manejan, soy un poco masdel genero de banda. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-secondary">Escribir</span>
+              <span class="badge text-bg-secondary">Editar</span>
+              <span class="badge text-bg-secondary">Blogs</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>A esta fecha estoy cursando segundo semestre de Contabilidad con el proposito de llegar hacer una persona independiente asi como tomando el curso de Tecnolochicas Pro. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-secondary">Tecnolochicas PRO</span>
+              <span class="badge text-bg-secondary">Desarrollo Web</span>
+              <span class="badge text-bg-secondary">Python</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Proyectos recientes que e logrado</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/amigos.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="Hechos relevante">
+                  <a href="imagenes/amigos.jpg" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="Proyecto 2">
+              <img src="imagenes/reconocimiento.jpg" alt="Proyecto 2">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="Hechos relevante">
+                  <a href="imagenes/reconocimiento.jpg" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="Proyecto 3">
+              <img src="imagenes/xv.jpg" alt="Proyecto 3">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="Hechos relevante">
+                  <a href="imagenes/xv.jpg" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="Proyecto 4">
+              <img src="imagenes/baile 2.jpg" alt="Proyecto 4">
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="Hechos relevante">
+                  <a href="imagenes/baile 2.jpg" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="Proyecto 5">
+              <img src="https://manati.mx/wp-content/uploads/2022/02/rels-b-puebla-concierto.jpeg" alt="Proyecto 5">
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="Cancion relevante">
+                  <a href="https://manati.mx/wp-content/uploads/2022/02/rels-b-puebla-concierto.jpeg" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="Proyecto 6">
+              <img src="imagenes/WhatsApp Image 2023-06-10 at 9.57.31 AM.jpeg" alt="Proyecto 6">
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="Hechos relevante">
+                  <a href="imagenes/WhatsApp Image 2023-06-10 at 9.57.31 AM.jpeg" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Metas -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Artículos</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJiBFZCSU6s7uqxUQkbjGLwLwz-TjFT8qRuc3P01COwg&s" 
+          target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Terminar mi carrera de contabilidad.
+            </li>
+          </a>
+          <a href="imagenes/baile3.jpg" target="_blank"
+           rel="noopener noreferrer">
+            <li class="list-group-item">
+              Ser una bailarina profesional.
+            </li>
+          </a>
+          <a href="data:image/jpeg;base64,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" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Lograra ser Auxiliar de vuelo.
+            </li>
+          </a>
+          <a href="https://www.liderempresarial.com/los-10-mejores-paises-para-conocer-en-2023/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Conocer varios paises.
+            </li>
+          </a>
+          <a href="imagenes/famous.jpg" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Lograr conocer a mas de mis famosos favoritos.
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="https://www.songkick.com/es/artists/9060674-lenny-tavarez" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios especiales en mi vida..</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/hermano.jpg" alt="Foto de Misael">
+              <p class="testimonio-texto">Eres una persona maravillosa, decidida, que toma la vida así como viene, eres muy firme en tus decisiones, me gusta tu forma de ser 
+                Eres amable, sociable y sobre todo eres una persona muy respetuosa,siempre estaré para apoyarte.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Misael</p>
+                <p class="cargo">Hermano</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/mejor amiga.jpg" alt="Foto de Valeria">
+              <p class="testimonio-texto">Sher, eres una gran niña en todos los sentidos, me has demostrado una lealtad como nadie más, se que cumplirás todos tus sueños, llegaras muy lejos, siempre contarás conmigo.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Valeria</p>
+                <p class="cargo">Mejor amiga</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/gio.jpg" alt="Foto de Giovanni">
+              <p class="testimonio-texto">Eres una chica muy linda que me gusta tu forma de ser muy buena amiga que me escucha y me aconseja
+                muy inteligente y que también me cuida cuando tomo,eres bien críticona y ahí veces que no sabes qué hacer eres muy indecisa al tomar una decisión y tienes miedo de hacer las cosas pero cuando estás segura nada te detiene y te lo impide eres una mujer muy fuerte.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Giovanni</p>
+                <p class="cargo">Mejor amigo</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para iniciar tu proyecto de desarrollo web sobre algun tema en especifico.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="sherlyngualupe3@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">No limites tus retos.<br>Reta tus limites.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://instagram.com/tf_cande?igshid=MzNlNGNkZWQ4Mg==" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Sherlyn Triana (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
